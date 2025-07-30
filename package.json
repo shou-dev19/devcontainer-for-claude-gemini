@@ -1,0 +1,23 @@
+{
+  "name": "devcontainer-for-gemini-cli",
+  "version": "1.0.0",
+  "description": "Gemini CLIを使用できるdevcontainer環境",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shou-dev19/devcontainer-for-gemini-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shou-dev19/devcontainer-for-gemini-cli/issues"
+  },
+  "homepage": "https://github.com/shou-dev19/devcontainer-for-gemini-cli#readme"
+}

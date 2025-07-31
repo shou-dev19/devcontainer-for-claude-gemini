@@ -1,17 +1,17 @@
-# devcontainer-for-gemini-cli
+# devcontainer-for-claude-gemini
 
-Gemini CLIを使用できるdevcontainer環境
-Node.jsをベースにGemini CLIをグローバルインストール済みの環境
+Claude CodeとGemini CLIを使用できるdevcontainer環境
+[Claude Codeの公式リファレンスリポジトリ](https://github.com/anthropics/claude-code/tree/main)をベースに、Gemini CLIをグローバルインストール済みの環境を構築した
+同じコンテナ内でClaude CodeとGemini CLIを切り替えることが可能
 
 ## 使用手順
 
 - `git clone`で当プロジェクトを落としてくる
 - VSCodeやCursorで当プロジェクトを開き、「Reopen in Container」をクリック
-- コンテナ環境内で`gemini`コマンドを実行すると、Gemini CLIが立ち上がる
+- コンテナ環境内で`claude`コマンドを実行すればClaude Codeが立ち上げる
+- 同じく、`gemini`コマンドを実行すると、Gemini CLIが立ち上がる
 
 ### 初回のみ
 
-- 好みのGemini CLIのテーマを選択する
-- Googleアカウントか、APIキーでの認証を行う
-
-    ※これらの設定はコンテナ内にマウントしている`/home/node/.gemini`内に永続的に保存されるため、二度目以降のコンテナ起動時には聞かれないようになっている
+- Claude Code及びGemini CLIの初期設定を聞かれるので、好みのテーマを選択したり、認証を行うこと
+- 二度目以降は聞かれない

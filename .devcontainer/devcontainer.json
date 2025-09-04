@@ -20,7 +20,8 @@
         "esbenp.prettier-vscode",
         "eamodio.gitlens",
         "yzhang.markdown-all-in-one",
-        "bierner.markdown-mermaid"
+        "bierner.markdown-mermaid",
+        "google.geminicodeassist"
       ],
       "settings": {
         "editor.formatOnSave": true,

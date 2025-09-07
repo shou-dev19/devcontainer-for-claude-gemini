@@ -1,8 +1,8 @@
 # devcontainer-for-claude-gemini
 
-Claude CodeとGemini CLIを使用できるdevcontainer環境
-[Claude Codeの公式リファレンスリポジトリ](https://github.com/anthropics/claude-code/tree/main)をベースに、Gemini CLIをグローバルインストール済みの環境を構築した
-同じコンテナ内でClaude CodeとGemini CLIを切り替えることが可能
+Claude CodeとGemini CLIを使用できるdevcontainer環境を作成しました。
+[Claude Codeの公式リファレンスリポジトリ](https://github.com/anthropics/claude-code/tree/main)をベースに作成しています。
+同じコンテナ内でClaude CodeとGemini CLIを切り替えることが可能です。
 
 ## 使用手順
 
